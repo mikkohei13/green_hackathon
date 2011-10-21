@@ -1,8 +1,11 @@
+
+document.getElementById("ctl00_ContentPlaceHolderLeftCol_toplists1_toplistFlight1_ctl00_price_link").style.background='red !important';
+
 var greeting = "hola, ";
-var button = document.getElementById("ctl00_ContentPlaceHolderLeftCol_searchFirstPage_1_SearchHeader");
-button.person_name = "Roberto";
+var person_name = "Roberto";
+var button = document.getElementById("ctl00_ContentPlaceHolderLeftCol_toplists1_toplistFlight1_ctl00_price_link");
 button.addEventListener("click", function() {
-  alert(greeting + button.person_name + ".");
+  alert(greeting + person_name + ".");
 }, false);
 
 
