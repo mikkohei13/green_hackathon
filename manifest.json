@@ -6,6 +6,13 @@
     "default_icon": "icon.png",
 	"popup": "popup.html"
   },
+  "content_scripts": [
+    {
+      "matches": ["http://www.flygstolen.se/*"],
+      "css": ["mystyles.css"],
+      "js": ["jquery-1.6.4.js", "myscript.js"]
+    }
+  ],
   "permissions": [
     "http://api.flickr.com/"
   ]
